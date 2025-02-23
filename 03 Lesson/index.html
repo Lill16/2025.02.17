@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello</h1>
+    <form>
+        <label for="name">
+            Name
+        </label><br>
+        <input type="text" id="name"><br>
+    </form>
+
+    <div>
+        <label for="button">
+            Кнопка
+        </label>
+        <input type="button" id="button">
+    </div>
+
+    <p>
+        <input type="color" id="Gradient">
+        <label for="Gradient">
+            Select your favorite color
+        </label>
+    </p>
+
+    <p>
+    <form action="check">
+        <input type="checkbox" id="box">
+        <label for="box">
+            I`m hungry
+        </label><br>
+        <input type="checkbox" id="box2">
+        <label for="box2">
+            I`m Fool
+        </label><br>
+    </form>
+    </p>
+
+    <p>
+        <form action="day">
+            <label for="Birthday">
+                Birthday
+            </label>
+            <input type="date" id="Birthday" name="Birthday">
+        </form>
+    </p>
+
+    <p>
+        <form>
+            <label for="">
+                Enter your email
+            </label><br>
+            <input type="email" id="email" name="email">
+        </form>
+    </p>
+
+    
+        <form>
+            <label for="file">
+                Select a file 
+            </label>
+            <input type="file" id="file" name="file"><br>
+
+            <p>
+            <label for="number">
+                How old a you 
+            </label>
+            <input type="number" id="number" name="number"><br>
+        </p>
+
+        <p>
+            <label for="datetime-local">
+                Date and time
+            </label>
+            <input type="datetime-local" id="datetime-local" name="datetime-local">
+        </p>
+
+        <p>
+            <label for="hidden">
+                hidden input
+            </label>
+            <input type="hidden" id="hidden" name="hidden">
+        </p>
+
+        <p>
+            <label for="">
+                Canadian Sphinx
+            </label><br>
+            <input type="image" src="img/kanadskij-sfinks1-1000x800.jpg" alt="cat"
+            width="400" height="300">
+        </p>
+
+        <p>
+            <label for="bdaymounth">
+                Birthday
+            </label>
+            <input type="month" id="bdaymounth" name="bdaymounth">
+        </p>
+        </form>
+
+        <form>
+            <label for="choose">Would you prefer a banana or a cherry?</label>
+            <input id="choose" name="i-like" required pattern="[Bb]anana|[Cc]herry" />
+            <button>Submit</button>
+          
+          <div>
+            
+            <label for="choose">
+                Would you prefer a banana or cheery?
+            </label>
+            <input 
+            type="text"
+            id="choose"
+            name="choose"
+            required
+            minlength="5"
+            maxlength="10">
+          </div>
+          <div>
+            <label for="number">
+                How many would you like?
+            </label>
+            <input type="number" id="number" name="amount" value="1" min="1" max="10">
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+    
+
+</body>
+
+</html>
