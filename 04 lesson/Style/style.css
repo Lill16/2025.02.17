@@ -1,0 +1,157 @@
+/* .karla-<uniquifier > {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200..800&display=swap'); */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background: aquamarine;
+  position: absolute;
+  width: 213px;
+  height: 19px;
+  left: 294px;
+  top: 155px;
+  color: rgb(50, 64, 59);
+  /* font-family:  */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+form {
+  position: absolute;
+  width: 700px;
+  height: 600px;
+  left: 180px;
+  top: 72px;
+  background-color: rgb(246, 251, 249);
+  border-radius: 32px;
+}
+
+h1 {
+  color: rgb(33, 43, 39);
+  /* font-family: Karla; */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 71.8px;
+  /* letter-spacing: 0%; */
+  /* text-align: center; */
+  margin: 44px 70px 4px 70px;
+}
+
+.contentBlock {
+  margin: 4px 74px 32px 74px;
+  font-size: 22px;
+}
+
+/* .email { */
+/* margin: 32px 40px 15px 40px;
+  border-radius: 10px;
+  width: 375px;
+  /* height: 55px; */
+/* left: 238px; */
+/* right: 212px; */
+/* background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 32px 33px;
+  display: inline-block;
+  box-sizing: border-box; */
+/* }
+
+.password {
+  margin: 15px 40px 21px 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 375px;
+  height: 55px;
+  left: 212px;
+  right: 238px;
+  border: 2px solid black;
+} */
+
+.click {
+  margin: 4px 100px 11px 100px;
+  width: 255px;
+  height: 55px;
+  left: 273px;
+  right: 384px;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-family: Karla;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28.6px;
+  /* letter-spacing: 0%; */
+  /* text-align: center; */
+  background: rgb(132, 199, 174);
+
+  /* color: white;  */
+  /* Rectangle 4
+
+  /* border-radius: 23.01px;
+  background: rgb(132, 199, 174);
+  display: inline-block;
+  /* width: 391.19px; */
+  /* padding: 23px 73px;
+  color: rgb(255, 255, 255);
+  font-size: 33.75px;
+  font-weight: 700;
+  line-height: 43.87px;
+  border: 1px solid rgb(132, 199, 174);
+  margin-bottom: 17px; */
+}
+
+.click:hover {
+  background: rgb(154, 156, 156);
+  /* border: 1px solid rgb(28, 44, 38); */
+}
+
+.form-input {
+  /* margin: 32px 40px 15px 40px; */
+  border-radius: 10px;
+  width: 375px;
+  /* height: 55px; */
+  /* left: 238px; */
+  /* right: 212px; */
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 32px 33px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.form-password {
+  margin: 15px 40px 21px 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 375px;
+  /* height: 55px; */
+  /* left: 212px; */
+  /* right: 238px; */
+  border: 2px solid black;
+  padding: 32px 33px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.justText {
+  /* position: absolute; */
+  /* width: 213px;
+    height: 19px;
+  
+    text-align: center;
+    margin: 0px;
+    font-size: 18px;
+     */
+  margin: 0;
+  color: rgb(50, 64, 59);
+  font-size: 21.48px;
+  line-height: 27.92px;
+}
