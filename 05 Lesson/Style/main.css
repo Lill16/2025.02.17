@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  /* width: 1440px; */
+  height: 2201px;
+}
+
+.logoHeader {
+  /* margin-top: 60px; */
+
+  display: inline-block;
+  box-sizing: border-box;
+  display: flex; /* Включаем Flexbox */
+  justify-content: space-between;
+  text-align: center;
+}
+
+.logoOne {
+  padding-left: 250px;
+  text-align: left;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.twoLogo {
+  padding-right: 250px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.getUnlimited {
+  background: rgb(250, 201, 96);
+
+  height: 421px;
+  text-align: center;
+
+  font-size: 22px;
+  color: rgb(138, 109, 47);
+  font-family: Roboto;
+
+  font-weight: 400;
+  line-height: 54px;
+
+  text-align: center;
+
+  /* margin-top: 160px; */
+}
+
+h1 {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.Enter {
+  background-color: white;
+  display: inline-block;
+  padding-left: 36px;
+  padding-right: 194px;
+  color: rgb(153, 153, 153);
+}
+
+.enterr {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 54px;
+  outline: white;
+  text-align: center;
+  border-radius: 2px 0px 0px 2px;
+}
+
+button {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 54px;
+
+  text-align: center;
+  border-radius: 0px 2px 2px 0px;
+
+  background: rgb(168, 134, 61);
+  width: 240px;
+  height: 54px;
+  left: 566px;
+  top: 0.2px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+.unlimitedSpace {
+  background: rgb(242, 242, 242);
+  text-align: center;
+  height: 290px;
+  padding-top: 77px;
+  margin-bottom: 89px;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.56);
+  font-family: Roboto;
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.space {
+  padding-bottom: 57px;
+  padding-top: 32px;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.Unlimited {
+  width: 166.59px;
+  height: 80px;
+}
+
+.mobileAccess {
+  text-align: center;
+}
+
+h3 {
+  color: rgba(0, 0, 0, 0.56);
+  font-family: Roboto;
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.Mobil {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.Phone {
+  width: 190px;
+  height: 354.57px;
+  left: 375px;
+}
+
+.friends {
+  text-align: center;
+  background: rgb(250, 201, 96);
+}
+
+h4 {
+  padding-top: 54px;
+  color: rgb(138, 109, 47);
+  font-family: Roboto;
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 36px;
+
+  text-align: center;
+}
+
+.tell {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 31px;
+  margin-bottom: 33px;
+}
+
+.refer {
+  /* Rectangle */
+  text-align: center;
+  width: 61px;
+  height: 22px;
+  left: 0;
+  top: 0;
+  margin-bottom: 107px;
+  box-sizing: border-box;
+  border: 1px solid rgb(117, 134, 150);
+  border-radius: 3px;
+
+  background: rgb(255, 255, 255);
+}
+
+.logoFooter {
+  text-align: center;
+}
+
+.logo2 {
+  padding-top: 85px;
+  text-align: center;
+}
