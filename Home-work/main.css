@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  width: 404px;
+  height: 100%;
+
+  text-align: center;
+}
+
+.color-back {
+  background-color: black;
+}
+
+.icon {
+  bottom: 567px;
+}
+
+img {
+  padding: 21px 132px 0px 132px;
+  width: 140px;
+  height: 140px;
+}
+
+h1 {
+  color: white;
+  margin-top: 21px;
+  margin-bottom: 52px;
+  line-height: 35px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 10px;
+}
+
+
+
+.log {
+  width: 302px;
+  height: 50px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 23px;
+  letter-spacing: 4px;
+  /* margin-top: 55px; */
+  margin-bottom: 26px;
+  border: 4px solid white;
+ 
+}
+
+.sign {
+  width: 302px;
+  height: 50px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 23px;
+  letter-spacing: 4px;
+  margin-bottom: 95px;
+  border: 4px solid white;
+}
+
+.log:hover {
+    cursor: pointer;
+    background-color: rgb(109, 18, 18);
+}
+
+.sign:hover {
+    cursor: pointer;
+    background-color: rgb(109, 18, 18);
+}
