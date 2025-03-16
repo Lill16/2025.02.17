@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.nunito-sans {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+  }
+
+  .roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+
+:root {
+    --text-color: rgb(0, 0, 0);
+    --orange-color: rgb(242, 153, 74);
+    --footer-border: 3px solid rgb(255, 255, 255);
+    --footer-back: rgb(63, 154, 183);
+}
+
+body {
+    width: 1920px;
+    background-color:gray;
+    box-sizing: border-box;
+    
+}
+
+header, main{
+    
+    background-color: white;
+    padding: 0 7%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 160px 0;
+}
+
+.category {
+    display: flex;
+    gap: 31px;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.home {
+    display: flex;
+    gap: 35px;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.lable {
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.search i {
+    width: 16px;
+height: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 51px;
+}
+
+.table {
+    width: 34.25%;
+    padding-right: 12.16%;
+}
+
+.table img {
+width: 100%;
+}
+
+.content {
+    width: 50.83%;
+    padding-right: 9.83%;
+}
+
+h1 {
+color: var(--orange-color);
+font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 1px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+font-family: Nunito Sans;
+font-size: 65px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 1px;
+
+}
+
+
+
+footer {
+   background-color: var(--footer-back);
+   display: flex;
+   text-align: center;
+   position: relative;
+}
