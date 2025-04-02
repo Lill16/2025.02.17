@@ -18,11 +18,12 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+   
     
 }
 
 header {
-    /* width: 100%; */
+    width: 93.75%;
     margin: 30px 60px 80px 60px;
     display: grid;
     font-family: Inter;
@@ -31,7 +32,7 @@ header {
     /* padding-right: 60px; */
     align-content: center;
     align-items: center;
-
+    
 }
 
 .two-button {
@@ -53,15 +54,9 @@ header {
    
 }
 
-.three-img {
-    
-}
-
-
-
 
 main {
-    margin-left: 60px;
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 
@@ -69,18 +64,20 @@ main {
     "left-side main right-nav"
     "footer footer";
     
+    
 }
 
 
 
 .home {
-    row-gap: 86px;
+    /* row-gap: 86px; */
+    width: 45.43%;
     
 }
 
 .home img {
-    width: 797px;
-height: 864px;
+
+height: auto;
 row-gap: 86px;
 }
 
@@ -125,4 +122,22 @@ a {
     transform: rotate(-45deg) translate(7px, -7px);
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 86px;
+    /* width: 91.1%; */
+    /* align-content: center; */
 
+}
+
+.container-two {
+    display: grid;
+    width: 49%;
+
+   
+}
+
+.name {
+    justify-self: stretch;
+}
