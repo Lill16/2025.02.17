@@ -54,6 +54,13 @@ main {
   gap: 31px;
   font-size: 19px;
   letter-spacing: 1px;
+  color: black;
+  text-decoration: none ;
+}
+
+.category a {
+  color: black;
+  text-decoration: none ;
 }
 
 .home {
@@ -63,12 +70,14 @@ main {
   letter-spacing: 1px;
 }
 
-.home span {
+.home a {
   position: relative;
   display: inline-block;
+  text-decoration: none;
+  color: black;
 }
 
-.home span:hover::after {
+.home a:hover::after {
   content: " .";
   color: var(--orange-color);
   font-size: 5.2em;
@@ -88,7 +97,10 @@ main {
 .search i {
   width: 16px;
   height: 16px;
-}
+  text-decoration: none;
+  color: black;
+} 
+
 
 main {
   display: flex;
@@ -228,9 +240,15 @@ h2 {
   color: transparent;
   background-color: var(--orange-color);
   border-radius: 34px;
-
   border: 1px solid rgb(255, 255, 255);
   padding: 10px;
+
+}
+
+.image-icons img:last-child:hover {
+  cursor: pointer;
+  background: white;
+  background-color: var(--footer-back);
 }
 
 footer {
