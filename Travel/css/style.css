@@ -11,10 +11,11 @@
 }
 
 body {
-  background-image: url("/Travel/img/bg.png");
+  background-image: url('/Travel/img/bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  
 }
 
 header {
@@ -127,7 +128,7 @@ h1 {
   column-gap: 39px;
   width: 100%;
   height: auto;
-  color: white;
+  color: var(--text);
 }
 
 .river img {

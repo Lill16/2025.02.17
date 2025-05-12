@@ -1,0 +1,507 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-header: rgb(102, 142, 104);
+  --text-color: rgb(255, 255, 255);
+  --color-footer: rgb(0, 0, 0);
+  --background-news: rgba(129, 97, 59, 0.2);
+}
+
+@media print {
+  .navigation {
+    display: none;
+  }
+
+  .design {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+
+  .container-header {
+    width: 100%;
+  }
+}
+
+html {
+  font-size: 16px;
+}
+
+header {
+  background-color: var(--color-header);
+}
+
+.container-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 59%;
+  padding: 15px 0 15px 0;
+  margin: 0 auto;
+  color: var(--text-color);
+  align-items: center;
+}
+
+.design {
+  font-size: 2.75rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navigation nav {
+  display: grid;
+  grid-auto-flow: column;
+  row-gap: 4, 5%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 1.1rem;
+}
+
+.grand-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grand-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.grand-img h1 {
+  position: absolute;
+  color: var(--text-color);
+  font-size: 6.88rem;
+  font-weight: 400;
+
+  font-family: "Shadows Into Light";
+}
+
+.container-menu {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 59%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.menu-text {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 39px;
+
+  font-size: 1.25rem;
+  line-height: 35px;
+  color: var(--color-footer);
+}
+
+.three-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 39px;
+}
+
+.three-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.green-button {
+  display: flex;
+  background-color: var(--color-header);
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: fit-content;
+  padding: 7px 34px 7px 34px;
+  border-radius: 20px;
+  gap: 11px;
+}
+
+.green-button button {
+  display: flex;
+
+  font-family: "Yu Gothic", "YuGothic", "Yu Gothic UI",
+    "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.63rem;
+  background-color: var(--color-header);
+  border: none;
+  color: var(--text-color);
+}
+
+.green-button i {
+  font-size: 1.25remx;
+  color: var(--text-color);
+}
+
+.green-button button,
+i:hover {
+  cursor: pointer;
+}
+
+.container-about {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  width: 100%;
+  height: auto;
+}
+
+.img-room {
+  position: relative;
+  display: grid;
+  place-items: center;
+
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-room img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.about {
+  position: absolute;
+  width: 59%;
+  height: auto;
+}
+
+.about-disign {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+}
+
+h3 {
+  font-family: "Yu Gothic" "YuGothic" "Yu Gothic UI" "Hiragino Kaku Gothic ProN"
+      "Meiryo",
+    sans-serif;
+  font-size: 3.25rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 3px black;
+
+  color: var(--text-color);
+}
+
+.design-cafe {
+  text-shadow: 2px 2px 3px black;
+  font-size: 1.25rem;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.about-cafe {
+  display: grid;
+  place-items: center;
+  font-family: "Yu Gothic" "YuGothic" "Yu Gothic UI" "Hiragino Kaku Gothic ProN"
+      "Meiryo",
+    sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.63rem;
+  color: var(--text-color);
+  text-shadow: 2px 2px 3px black;
+  margin-bottom: 4rem;
+}
+
+.about-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 7px 34px 7px 34px;
+  background-color: var(--color-header);
+  border-radius: 20px;
+  width: fit-content;
+  gap: 11px;
+}
+
+.about-button button {
+  display: flex;
+  font-family: "Yu Gothic" "YuGothic" "Yu Gothic UI" "Hiragino Kaku Gothic ProN"
+      "Meiryo",
+    sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.63rem;
+  background-color: var(--color-header);
+  border: none;
+  color: var(--text-color);
+}
+
+.about-button i {
+  font-size: 22px;
+  color: var(--text-color);
+}
+
+.about-button button,
+i:hover {
+  cursor: pointer;
+}
+
+.container-new {
+  background-color: var(--background-news);
+  width: 100%;
+  height: auto;
+}
+
+.new {
+  width: 59%;
+  /* display: grid; */
+  place-content: center;
+  margin: 0 auto;
+  padding-top: 5.18rem;
+}
+
+h4 {
+  display: grid;
+  place-items: center;
+
+  font-family: "Yu Gothic" "YuGothic" "Yu Gothic UI" "Hiragino Kaku Gothic ProN"
+      "Meiryo",
+    sans-serif;
+  font-size: 3.25rem;
+  font-weight: 500;
+  line-height: 2.19rem;
+}
+
+.new-bottom {
+  display: grid;
+  place-items: center;
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.news-text {
+  display: grid;
+  padding: 1.2rem;
+  row-gap: 1.4rem;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  background-color: white;
+  border: 0.06em solid black;
+  font-family: "Yu Gothic@" "YuGothic" "Yu Gothic UI"
+      "Hiragino Kaku Gothic ProN" "Meiryo",
+    sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.63rem;
+  color: var(--color-footer);
+}
+
+.chine-text span {
+  margin-left: 2rem;
+}
+
+.chine-text-two span {
+  margin-left: 2rem;
+}
+
+footer {
+  background-color: var(--color-footer);
+  color: var(--text-color);
+  width: 100%;
+  height: auto;
+}
+
+.container-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 1.25rem;
+  padding-bottom: 2rem;
+  width: 59%;
+  margin: 0 auto;
+}
+
+.reserved {
+  font-family: "Georgia";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.13rem;
+  text-align: right;
+  color: var(--text-color);
+}
+
+.nav-contact {
+  font-family: "Yu Gothic" "YuGothic" "Yu Gothic UI" "Hiragino Kaku Gothic ProN";
+  font-size: 1rem;
+  font-weight: 500;
+  
+  line-height: 1.56rem;
+  color: var(--text-color);
+}
+
+.up-button {
+ 
+  display: grid;
+  justify-content: end;
+  
+ 
+}
+
+.up-button i {
+  font-size: 3.1rem;
+  background-color: var(--color-header);
+  color: var(--text-color);
+  border-radius: 50%;
+  margin: 2rem 1.3rem 1.3rem 0;
+  border: none;
+  padding: 0.4rem 1rem 0.3rem 1rem;
+  cursor: pointer;
+}
+
+
+.burger-menu {
+  display: none; 
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger-menu span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: var(--text-color);
+  border-radius: 2px;
+}
+
+
+.navigation {
+  display: flex;
+}
+
+.navigation nav {
+  display: flex;
+  gap: 20px;
+}
+
+
+@media (max-width: 600px) {
+  .container-header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   
+  }
+  .burger-menu {
+    display: flex;     
+  }
+
+  .navigation {
+    display: none; 
+    position: absolute;
+   
+    
+    background-color: var(--color-header);
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .navigation.active {
+    display: flex;
+  }
+
+  .navigation nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .grand-img h1 {
+    font-size: 3.5rem;
+  }
+
+  .three-img {
+    grid-template-columns: 3fr;
+  }
+
+  .about {
+    width: 100%;
+    height: auto;
+  }
+  .design-cafe{
+    font-size: 1rem;  
+  }
+
+  .about-disign h3 {
+    font-size: 1.5rem;
+  }
+  
+  .new{
+    width: 90%;
+  }
+footer {
+  display: grid;
+  grid-template-rows: 3fr;
+}
+}
+
+
+@media(max-width: 1200px){
+  .navigation nav{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media print {
+  .navigation {
+    display: none;
+  }
+
+  .design {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+
+}
+
+/*стили подключить 
+Кнопку доделать 
+медиа квери 
+Досмотреть видео на 40 минуте "
+/*
